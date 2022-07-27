@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  width: 100%;
+  min-width: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+  color: white;
+  background-color: orange;
+  padding: 10px 0;
+}
+
+.sobre{
+  height: 320px;
+  margin: 20px 35px;
+  overflow: auto scroll;
+}
+
+.sobre p{
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.galeria{
+  margin: 20px 35px;
+}
+
+.imagens{
+  display: flex;
+  overflow: scroll auto;
+}
+
+.galeria img{
+  width: calc((100% / 3) - 3px);
+  margin: 0 1.5px;
+}
